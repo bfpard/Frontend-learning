@@ -3,16 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SignalComponent } from "../main/pages/signals/signals.component";
+import { SignalComponent } from "./main/components/signals/signals.component";
+import { NavbarComponent } from './main/components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SignalComponent
+    SignalComponent,
+    NavbarComponent
 ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,18 @@
+<nav>
+  <a
+    routerLink="/"
+    [routerLinkActive]="'active'"
+    [routerLinkActiveOptions]="{ exact: true }"> <!--exact: true para que solo se active cuando sea la ruta exacta-->
+    Signal
+  </a>
+
+  <a [routerLink]="['/counter']" [routerLinkActive]="'active'">Counter</a>
+
+  <!--<a [routerLink]="['/dragonball']" [routerLinkActive]="'active'">Dragonball</a>
+
+  <a routerLink="/dragonball-super" routerLinkActive="active"
+    >Dragonball Super</a
+  > -->
+
+  <!-- OTROS -->
+</nav>
